@@ -1,4 +1,4 @@
-# Time Master
+# Time Master (25 + 5 Clock)
 Time Master is a timer application built using React. It allows users to set the length of a session and break time and provides a countdown timer.
 
 ## Features
@@ -32,4 +32,14 @@ Include some screenshots or GIFs of the Time Master application here.
 - React: A JavaScript library for building user interfaces.
 - HTML: The standard markup language for creating web pages.
 - CSS: A stylesheet language used for describing the presentation of a document.
+
+## Contributing
+Contributions to the 25 + 5 Clock application are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Credits
+This 25 + 5 Clock project is part of the [FreeCodeCamp Frontend Certification](https://www.freecodecamp.org/learn/front-end-libraries/) course. It was completed as one of the required projects in the curriculum.
+
+FreeCodeCamp (FCC) is a nonprofit organization that offers a comprehensive web development curriculum and certifications. The Frontend Certification focuses on frontend libraries and frameworks like React, and it covers various topics including HTML, CSS, JavaScript, and more.
+
+Learn more about FreeCodeCamp and their educational programs on their official website: [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
 
