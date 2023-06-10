@@ -1,6 +1,9 @@
 # Time Master (25 + 5 Clock)
 Time Master is a timer application built using React. It allows users to set the length of a session and break time and provides a countdown timer.
 
+## Preview
+![Time Master Preview](img/time-master.jpg)
+
 ## Features
 - Set session length: Users can define the length of the session (work time) in minutes.
 - Set break length: Users can specify the length of the break time in minutes.
@@ -24,9 +27,6 @@ To run Time Master on your local machine, follow these steps:
 3. Start the timer: Click the play button to start the timer. The countdown will begin for the session length.
 4. Pause and resume: Click the play button again to pause the timer. Click it once more to resume the timer.
 5. Reset the timer: Click the reset button to reset the timer to its initial state.
-
-## Screenshots
-Include some screenshots or GIFs of the Time Master application here.
 
 ## Technologies Used
 - React: A JavaScript library for building user interfaces.
