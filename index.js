@@ -113,7 +113,7 @@ function Length({ title, changeTime, type, time, formatTime }) {
                 <button className="btn-small deep-purple lighten-2 downarrow-button" onClick={() => changeTime(-60, type)}>
                     <i className="material-icons">arrow_downward</i>
                 </button>
-                <h4>{formatTime(time)}</h4>
+                <h5>{formatTime(time)}</h5>
                 <button className="btn-small deep-purple lighten-2 uparrow-button" onClick={() => changeTime(60, type)}>
                     <i className="material-icons">arrow_upward</i>
                 </button>
