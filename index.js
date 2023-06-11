@@ -79,14 +79,15 @@ function App() {
     };
 
     return (
-        <div className="center-align">
-            <h1>Time Master</h1>
+        <div>
+            <div className="center-align container">
+            <h3>25+5 Clock</h3>
             <div className="dual-container">
                 <Length title={"break length"} changeTime={changeTime} type={"break"} time={breakTime} formatTime={formatTime} />
                 <Length title={"session length"} changeTime={changeTime} type={"session"} time={sessionTime} formatTime={formatTime} />
             </div>
-            <h3>{onBreak ? "Break" : "Session"}</h3>
-            <h1>{formatTime(displayTime)}</h1>
+            <h5>{onBreak ? "Break" : "Session"}</h5>
+            <h4>{formatTime(displayTime)}</h4>
             <button className="btn-large deep-purple lighten-2" onClick={controlTime}>
                 {timerOn ? (
                     <i className="material-icons">paused_circle_filled</i>
@@ -97,20 +98,23 @@ function App() {
             <button className="btn-large deep-purple lighten-2" onClick={resetTime}>
                 <i className="material-icons">autorenew</i>
             </button>
+            </div>
+            <h6 className="author">By Kalutu Daniel</h6>
         </div>
+        
     );
 }
 
 function Length({ title, changeTime, type, time, formatTime }) {
     return (
         <div>
-            <h3>{title}</h3>
+            <h5>{title}</h5>
             <div className="time-sets">
-                <button className="btn-small deep-purple lighten-2" onClick={() => changeTime(-60, type)}>
+                <button className="btn-small deep-purple lighten-2 downarrow-button" onClick={() => changeTime(-60, type)}>
                     <i className="material-icons">arrow_downward</i>
                 </button>
-                <h3>{formatTime(time)}</h3>
-                <button className="btn-small deep-purple lighten-2" onClick={() => changeTime(60, type)}>
+                <h4>{formatTime(time)}</h4>
+                <button className="btn-small deep-purple lighten-2 uparrow-button" onClick={() => changeTime(60, type)}>
                     <i className="material-icons">arrow_upward</i>
                 </button>
             </div>
