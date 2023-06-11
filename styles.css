@@ -10,6 +10,14 @@ body {
     padding-bottom: 20px;
     border-radius: 10px;
   }
+
+  .uparrow-button {
+    margin-left: -120px;
+  }
+
+  .downarrow-button {
+    margin-right: -120px;
+  }
   
   @media (max-width: 1200px) {
     .container {
@@ -26,14 +34,6 @@ body {
   @media (max-width: 760px) {
     .container {
       width: 90%;
-    }
-  
-    .uparrow-button {
-      margin-left: -100px;
-    }
-  
-    .downarrow-button {
-      margin-right: -100px;
     }
   }
   
