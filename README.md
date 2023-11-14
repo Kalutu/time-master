@@ -2,7 +2,7 @@
 Time Master is a timer application built using React. It allows users to set the length of a session and break time and provides a countdown timer.
 
 ## Preview
-![Time Master Preview](img/time-master.jpg)
+![Time Master Preview](public/img/time-master.jpg)
 
 ## Features
 - Set session length: Users can define the length of the session (work time) in minutes.
