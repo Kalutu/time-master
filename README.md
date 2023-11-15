@@ -15,7 +15,7 @@ Time Master is a timer application built using React. It allows users to set the
 ## Getting Started
 To run Time Master on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/time-master.git`
+1. Clone the repository: `git clone https://github.com/Kalutu/time-master`
 2. Navigate to the project directory: `cd time-master`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
