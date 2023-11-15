@@ -1,4 +1,7 @@
-function App() {
+import React from "react"
+import "./styles.css"
+
+export default function App() {
     const [displayTime, setDisplayTime] = React.useState(25 * 60);
     const [breakTime, setBreakTime] = React.useState(5 * 60);
     const [sessionTime, setSessionTime] = React.useState(25 * 60);
@@ -121,5 +124,3 @@ function Length({ title, changeTime, type, time, formatTime }) {
         </div>
     );
 }
-
-ReactDOM.render(<App />, document.getElementById("root"));
